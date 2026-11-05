@@ -1,0 +1,14 @@
+resourceDatabase.rdb
+*.pak
+*.log
+*.dmp
+.cache/
+.playtest/
+profiles/
+logs/
+runs/
+reference/
+dist/
+__pycache__/
+.env*
+*owner-private*

@@ -1,0 +1,35 @@
+GenericEntity : "{08313D18309DAC02}Prefabs/Structures/Military/CamoNets/Soviet/CamoNet_Wall_medium_Soviet.et" {
+ ID "52F0B4B066AF5A23"
+ components {
+  RplComponent "{5D46D21E5CE2E86E}" { Enabled 1 }
+  SCR_EditableEntityComponent "{5F0A9A25AF62DAC4}" : "{7933327C6791C5D0}Prefabs/Editor/Components/Structures_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Fieldcraft / VEIL / low screen"
+    Description "Break up a firing position or supply point silhouette. Pack away to recover 1 net pack(s)."
+    m_Image "{61D6D805D4D5EEEE}UI/Textures/EditorPreviews/Auto/Structures/Military/CamoNets/Soviet/E_CamoNet_Wall_medium_Soviet.edds"
+    m_sFaction "USSR"
+    m_aAuthoredLabels { 11 }
+    m_aAutoLabels { 108 1 122 }
+   }
+  }
+  FC_DeployableComponent "{476852FFE48C62D8}" {
+   m_bDeleteThisPartOnDeployment 1
+   m_aVariants { SCR_DeployableVariantContainer "{A51C9505850D536C}" {
+    m_sReplacementPrefab "{94078B2A95D2563B}Prefabs/Fieldcraft/FC_NetPack_USSR.et"
+    m_bUsePartRotationAndPosition 1
+    
+   } }
+  }
+  ActionsManagerComponent "{106E4DB6F80E0930}" {
+   ActionContexts { UserActionContext "{009FD0107D3C5031}" {
+    ContextName "default" Position PointInfo "{FCDAD8E74F7B6950}" { Offset 0 0.6 0 } Radius 3
+   } }
+   additionalActions { SCR_DeployMultiPartInventoryItemAction "{3BCE814A022849C3}" : "{53ACE069C87D43A3}Prefabs/Weapons/Core/Configs/Actions/DismantleMultipartInventoryItemAction.conf" {
+    UIInfo SCR_ActionUIInfo "{61B48E9F567C096C}" { Name "Pack away" Description "VEIL / low screen / recover 1 pack(s)" }
+    Duration 6
+    m_eRequiredGadget NONE
+   } }
+  }
+ }
+ coords 0 0 0
+}

@@ -1,0 +1,37 @@
+GenericEntity : "{B89C671B75B43849}Prefabs/Structures/Military/CamoNets/US/CamoNet_Medium_US.et" {
+ ID "52F0B4B066AF5A23"
+ components {
+  RplComponent "{5D46D21E5CE2E86E}" { Enabled 1 }
+  SCR_EditableEntityComponent "{5EF0BDF3121F4D2C}" : "{7933327C6791C5D0}Prefabs/Editor/Components/Structures_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Fieldcraft / CARPORT / vehicle hide"
+    Description "General purpose vehicle concealment. Pack away to recover 2 net pack(s)."
+    m_Image "{F4B5AC90BE228C6D}UI/Textures/EditorPreviews/Auto/Structures/Military/CamoNets/US/E_CamoNet_Medium_US.edds"
+    m_sFaction "US"
+    m_aAuthoredLabels { 11 }
+    m_aAutoLabels { 108 1 122 }
+   }
+  }
+  FC_DeployableComponent "{FAE2B3CB677358A7}" {
+   m_bDeleteThisPartOnDeployment 1
+   m_aVariants { SCR_DeployableVariantContainer "{537343F79C4BFF97}" {
+    m_sReplacementPrefab "{60A07C2BC814D895}Prefabs/Fieldcraft/FC_NetPack_US.et"
+    m_bUsePartRotationAndPosition 1
+    m_aAdditionalPrefabs { SCR_AdditionalDeployablePart "{CE18FFA194C3A2B6}" {
+ m_sPrefab "{60A07C2BC814D895}Prefabs/Fieldcraft/FC_NetPack_US.et" m_iNumberOfPrefabs 1
+} }
+   } }
+  }
+  ActionsManagerComponent "{B4C9F1D4799F35CD}" {
+   ActionContexts { UserActionContext "{E47DE152DD7AF900}" {
+    ContextName "default" Position PointInfo "{5C9F62BFCE7BA916}" { Offset 0 0.6 0 } Radius 3
+   } }
+   additionalActions { SCR_DeployMultiPartInventoryItemAction "{9DB51391209D2222}" : "{53ACE069C87D43A3}Prefabs/Weapons/Core/Configs/Actions/DismantleMultipartInventoryItemAction.conf" {
+    UIInfo SCR_ActionUIInfo "{61B48E9F567C096C}" { Name "Pack away" Description "CARPORT / vehicle hide / recover 2 pack(s)" }
+    Duration 10
+    m_eRequiredGadget NONE
+   } }
+  }
+ }
+ coords 0 0 0
+}

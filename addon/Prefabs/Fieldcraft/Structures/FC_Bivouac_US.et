@@ -1,0 +1,37 @@
+GenericEntity : "{6A30882656A63268}Prefabs/Structures/Military/CamoNets/US/CamoNet_Tent_US.et" {
+ ID "52F0B4B066AF5A23"
+ components {
+  RplComponent "{5D46D21E5CE2E86E}" { Enabled 1 }
+  SCR_EditableEntityComponent "{5EF0BDF3122FBCA0}" : "{7933327C6791C5D0}Prefabs/Editor/Components/Structures_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Fieldcraft / BIVOUAC / tent cover"
+    Description "A larger camouflage canopy for a field camp; no spawn or arsenal. Pack away to recover 2 net pack(s)."
+    m_Image "{8C624DD6AE36D003}UI/Textures/EditorPreviews/Auto/Structures/Military/CamoNets/US/E_CamoNet_Tent_US.edds"
+    m_sFaction "US"
+    m_aAuthoredLabels { 11 }
+    m_aAutoLabels { 108 1 122 }
+   }
+  }
+  FC_DeployableComponent "{E18DFE00CF20E6F2}" {
+   m_bDeleteThisPartOnDeployment 1
+   m_aVariants { SCR_DeployableVariantContainer "{F17A574B3E2E8238}" {
+    m_sReplacementPrefab "{60A07C2BC814D895}Prefabs/Fieldcraft/FC_NetPack_US.et"
+    m_bUsePartRotationAndPosition 1
+    m_aAdditionalPrefabs { SCR_AdditionalDeployablePart "{9E27DED4CBCDC571}" {
+ m_sPrefab "{60A07C2BC814D895}Prefabs/Fieldcraft/FC_NetPack_US.et" m_iNumberOfPrefabs 1
+} }
+   } }
+  }
+  ActionsManagerComponent "{85A87081B5EC3A7F}" {
+   ActionContexts { UserActionContext "{E0668908553D9202}" {
+    ContextName "default" Position PointInfo "{39AF73D7AF309C74}" { Offset 0 0.6 0 } Radius 3
+   } }
+   additionalActions { SCR_DeployMultiPartInventoryItemAction "{CD8CD9658CC1ABA4}" : "{53ACE069C87D43A3}Prefabs/Weapons/Core/Configs/Actions/DismantleMultipartInventoryItemAction.conf" {
+    UIInfo SCR_ActionUIInfo "{61B48E9F567C096C}" { Name "Pack away" Description "BIVOUAC / tent cover / recover 2 pack(s)" }
+    Duration 11
+    m_eRequiredGadget NONE
+   } }
+  }
+ }
+ coords 0 0 0
+}

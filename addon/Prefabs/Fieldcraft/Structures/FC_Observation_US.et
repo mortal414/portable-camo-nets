@@ -1,0 +1,35 @@
+GenericEntity : "{6C08FE47987A4B9A}Prefabs/Structures/Military/CamoNets/US/CamoNet_ObservationPost_US.et" {
+ ID "52F0B4B066AF5A23"
+ components {
+  RplComponent "{5D46D21E5CE2E86E}" { Enabled 1 }
+  SCR_EditableEntityComponent "{5EF0BDF3120B8285}" : "{7933327C6791C5D0}Prefabs/Editor/Components/Structures_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Fieldcraft / LOOKOUT / observation hide"
+    Description "A concealed spot for observation or a support weapon. Pack away to recover 1 net pack(s)."
+    m_Image "{A1A3AEFC18D6FB63}UI/Textures/EditorPreviews/Auto/Structures/Military/CamoNets/US/E_CamoNet_ObservationPost_US.edds"
+    m_sFaction "US"
+    m_aAuthoredLabels { 11 }
+    m_aAutoLabels { 108 1 122 }
+   }
+  }
+  FC_DeployableComponent "{29849DCF8B0C310D}" {
+   m_bDeleteThisPartOnDeployment 1
+   m_aVariants { SCR_DeployableVariantContainer "{F0F7A488BBB07D2F}" {
+    m_sReplacementPrefab "{60A07C2BC814D895}Prefabs/Fieldcraft/FC_NetPack_US.et"
+    m_bUsePartRotationAndPosition 1
+    
+   } }
+  }
+  ActionsManagerComponent "{93339499FD436C24}" {
+   ActionContexts { UserActionContext "{553CCA4E789EDEE5}" {
+    ContextName "default" Position PointInfo "{E00DC59F1550BBA8}" { Offset 0 0.6 0 } Radius 3
+   } }
+   additionalActions { SCR_DeployMultiPartInventoryItemAction "{B53C76FE3EEDC35E}" : "{53ACE069C87D43A3}Prefabs/Weapons/Core/Configs/Actions/DismantleMultipartInventoryItemAction.conf" {
+    UIInfo SCR_ActionUIInfo "{61B48E9F567C096C}" { Name "Pack away" Description "LOOKOUT / observation hide / recover 1 pack(s)" }
+    Duration 7
+    m_eRequiredGadget NONE
+   } }
+  }
+ }
+ coords 0 0 0
+}

@@ -1,0 +1,34 @@
+name: Bug report
+description: Report a reproducible Fieldcraft problem
+title: "[Bug]: "
+body:
+  - type: input
+    id: versions
+    attributes:
+      label: Fieldcraft and Arma Reforger versions
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Include whether a shovel was equipped and which hide was selected.
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Single-player or server, and relevant other mods
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Optional screenshots or redacted logs
+      description: Remove account details, passwords, tokens, server access codes and other private information.

@@ -1,0 +1,35 @@
+GenericEntity : "{36E5AD413F04B509}Prefabs/Structures/Military/CamoNets/US/CamoNet_Wall_high_US.et" {
+ ID "52F0B4B066AF5A23"
+ components {
+  RplComponent "{5D46D21E5CE2E86E}" { Enabled 1 }
+  SCR_EditableEntityComponent "{5EF0BDF31258CFE5}" : "{7933327C6791C5D0}Prefabs/Editor/Components/Structures_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Fieldcraft / CURTAIN / high screen"
+    Description "Screen a vehicle flank or command position. Pack away to recover 1 net pack(s)."
+    m_Image "{5C6E097E75D9B57E}UI/Textures/EditorPreviews/Auto/Structures/Military/CamoNets/US/E_CamoNet_Wall_high_US.edds"
+    m_sFaction "US"
+    m_aAuthoredLabels { 11 }
+    m_aAutoLabels { 108 1 122 }
+   }
+  }
+  FC_DeployableComponent "{9D5060F808F37B95}" {
+   m_bDeleteThisPartOnDeployment 1
+   m_aVariants { SCR_DeployableVariantContainer "{289316932273C2BC}" {
+    m_sReplacementPrefab "{60A07C2BC814D895}Prefabs/Fieldcraft/FC_NetPack_US.et"
+    m_bUsePartRotationAndPosition 1
+    
+   } }
+  }
+  ActionsManagerComponent "{6757CCD6190D4600}" {
+   ActionContexts { UserActionContext "{69323467522A0752}" {
+    ContextName "default" Position PointInfo "{522DB8DD562D4E20}" { Offset 0 0.6 0 } Radius 3
+   } }
+   additionalActions { SCR_DeployMultiPartInventoryItemAction "{5F649715564BD7DB}" : "{53ACE069C87D43A3}Prefabs/Weapons/Core/Configs/Actions/DismantleMultipartInventoryItemAction.conf" {
+    UIInfo SCR_ActionUIInfo "{61B48E9F567C096C}" { Name "Pack away" Description "CURTAIN / high screen / recover 1 pack(s)" }
+    Duration 6
+    m_eRequiredGadget NONE
+   } }
+  }
+ }
+ coords 0 0 0
+}

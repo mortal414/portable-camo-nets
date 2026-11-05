@@ -1,0 +1,35 @@
+GenericEntity : "{79AA43911CC6C3E8}Prefabs/Structures/Military/CamoNets/Soviet/CamoNet_Small_Soviet.et" {
+ ID "52F0B4B066AF5A23"
+ components {
+  RplComponent "{5D46D21E5CE2E86E}" { Enabled 1 }
+  SCR_EditableEntityComponent "{5EF0BDF31205E4F0}" : "{7933327C6791C5D0}Prefabs/Editor/Components/Structures_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Fieldcraft / ACORN / light hide"
+    Description "Light vehicle, gun team or a quick halt. Pack away to recover 1 net pack(s)."
+    m_Image "{284441727E60609C}UI/Textures/EditorPreviews/Auto/Structures/Military/CamoNets/Soviet/E_CamoNet_Small_Soviet.edds"
+    m_sFaction "USSR"
+    m_aAuthoredLabels { 11 }
+    m_aAutoLabels { 108 1 122 }
+   }
+  }
+  FC_DeployableComponent "{60B87CE7BB4D8A2A}" {
+   m_bDeleteThisPartOnDeployment 1
+   m_aVariants { SCR_DeployableVariantContainer "{2E3E12E7EDC60EB0}" {
+    m_sReplacementPrefab "{94078B2A95D2563B}Prefabs/Fieldcraft/FC_NetPack_USSR.et"
+    m_bUsePartRotationAndPosition 1
+    
+   } }
+  }
+  ActionsManagerComponent "{D5B46CB18D2B9862}" {
+   ActionContexts { UserActionContext "{647A9B37CB5E0A91}" {
+    ContextName "default" Position PointInfo "{A09D806A5FC976DE}" { Offset 0 0.6 0 } Radius 3
+   } }
+   additionalActions { SCR_DeployMultiPartInventoryItemAction "{AC3B1A486C17A5BB}" : "{53ACE069C87D43A3}Prefabs/Weapons/Core/Configs/Actions/DismantleMultipartInventoryItemAction.conf" {
+    UIInfo SCR_ActionUIInfo "{61B48E9F567C096C}" { Name "Pack away" Description "ACORN / light hide / recover 1 pack(s)" }
+    Duration 6
+    m_eRequiredGadget NONE
+   } }
+  }
+ }
+ coords 0 0 0
+}
