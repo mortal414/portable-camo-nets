@@ -41,8 +41,8 @@ The PAK index contains exactly **22 resources**: eighteen Fieldcraft item/struct
 
 ## Repository and images
 
-Tracked source/docs/issue templates: **66628 bytes in 52 files**, excluding Git's own metadata. Production source: **53545 bytes in 43 files** (including source metadata). Optional documentation is separate from the cooked addon.
+Public Git source/docs/issue templates: **65526 bytes in 52 files**, excluding Git metadata. Git normalizes text line endings. The local working export is **66744 bytes**. Production source before Git line-ending normalization: **53545 bytes in 43 files** (including source metadata). Optional documentation is separate from the cooked addon.
 
-Workshop-only JPEGs: **492,450 bytes** (FC-range-player.jpg: 243632, FC-range-showcase.jpg: 248818). These are actual native screenshots exported at original 1280×720 dimensions without changing scene content. They are separate promotional uploads, not addon art or required game downloads.
+Workshop-only JPEGs: **492,450 bytes** (FC-range-player.jpg: 243632, FC-range-showcase.jpg: 248818). These are actual native screenshots exported at original 1280Ã—720 dimensions without changing scene content. They are separate promotional uploads, not addon art or required game downloads.
 
 Workshop's generated manifest/compression and hosted screenshots can affect the service-reported upload size. The final server-side download has not yet been verified; this audit does not substitute its measured size with the source-tree size.
