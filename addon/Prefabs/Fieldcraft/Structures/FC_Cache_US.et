@@ -4,7 +4,7 @@ GenericEntity : "{801102E951113D8B}Prefabs/Structures/Military/CamoNets/US/CamoN
   RplComponent "{5D46D21E5CE2E86E}" { Enabled 1 }
   SCR_EditableEntityComponent "{5EF0BDF312B75FF0}" : "{7933327C6791C5D0}Prefabs/Editor/Components/Structures_SCR_EditableEntityComponent.ct" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "Fieldcraft / STASH / cache canopy"
+    Name "Portable Camo Nets / STASH / cache canopy"
     Description "Cover supplies already present; contains no ammunition. Pack away to recover 1 net pack(s)."
     m_Image "{41223B06042487F6}UI/Textures/EditorPreviews/Auto/Structures/Military/CamoNets/US/E_CamoNet_AmmoCache_US.edds"
     m_sFaction "US"

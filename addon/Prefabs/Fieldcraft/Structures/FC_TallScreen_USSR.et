@@ -4,7 +4,7 @@ GenericEntity : "{0667675C48220BD6}Prefabs/Structures/Military/CamoNets/Soviet/C
   RplComponent "{5D46D21E5CE2E86E}" { Enabled 1 }
   SCR_EditableEntityComponent "{5EF0BDF3125911B0}" : "{7933327C6791C5D0}Prefabs/Editor/Components/Structures_SCR_EditableEntityComponent.ct" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "Fieldcraft / CURTAIN / high screen"
+    Name "Portable Camo Nets / CURTAIN / high screen"
     Description "Screen a vehicle flank or command position. Pack away to recover 1 net pack(s)."
     m_Image "{376A4F0C55EC7D52}UI/Textures/EditorPreviews/Auto/Structures/Military/CamoNets/Soviet/E_CamoNet_Wall_high_Soviet.edds"
     m_sFaction "USSR"

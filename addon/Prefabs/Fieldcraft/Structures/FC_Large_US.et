@@ -4,7 +4,7 @@ GenericEntity : "{CD8641F8E583489F}Prefabs/Structures/Military/CamoNets/US/CamoN
   RplComponent "{5D46D21E5CE2E86E}" { Enabled 1 }
   SCR_EditableEntityComponent "{5EF0BDF312F575AA}" : "{7933327C6791C5D0}Prefabs/Editor/Components/Structures_SCR_EditableEntityComponent.ct" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "Fieldcraft / MOTORPOOL / heavy hide"
+    Name "Portable Camo Nets / MOTORPOOL / heavy hide"
     Description "Truck or multi vehicle concealment. Pack away to recover 3 net pack(s)."
     m_Image "{035D7C7726D3966D}UI/Textures/EditorPreviews/Auto/Structures/Military/CamoNets/US/E_CamoNet_Large_US.edds"
     m_sFaction "US"

@@ -4,7 +4,7 @@ GenericEntity : "{08313D18309DAC02}Prefabs/Structures/Military/CamoNets/Soviet/C
   RplComponent "{5D46D21E5CE2E86E}" { Enabled 1 }
   SCR_EditableEntityComponent "{5F0A9A25AF62DAC4}" : "{7933327C6791C5D0}Prefabs/Editor/Components/Structures_SCR_EditableEntityComponent.ct" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "Fieldcraft / VEIL / low screen"
+    Name "Portable Camo Nets / VEIL / low screen"
     Description "Break up a firing position or supply point silhouette. Pack away to recover 1 net pack(s)."
     m_Image "{61D6D805D4D5EEEE}UI/Textures/EditorPreviews/Auto/Structures/Military/CamoNets/Soviet/E_CamoNet_Wall_medium_Soviet.edds"
     m_sFaction "USSR"

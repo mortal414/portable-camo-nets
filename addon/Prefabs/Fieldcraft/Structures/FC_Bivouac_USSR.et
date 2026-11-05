@@ -4,7 +4,7 @@ GenericEntity : "{A817454D4372DBCA}Prefabs/Structures/Military/CamoNets/Soviet/C
   RplComponent "{5D46D21E5CE2E86E}" { Enabled 1 }
   SCR_EditableEntityComponent "{5EF0BDF3122DE70A}" : "{7933327C6791C5D0}Prefabs/Editor/Components/Structures_SCR_EditableEntityComponent.ct" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "Fieldcraft / BIVOUAC / tent cover"
+    Name "Portable Camo Nets / BIVOUAC / tent cover"
     Description "A larger camouflage canopy for a field camp; no spawn or arsenal. Pack away to recover 2 net pack(s)."
     m_Image "{AED2D3AC99C74576}UI/Textures/EditorPreviews/Auto/Structures/Military/CamoNets/Soviet/E_CamoNet_Tent_Soviet.edds"
     m_sFaction "USSR"

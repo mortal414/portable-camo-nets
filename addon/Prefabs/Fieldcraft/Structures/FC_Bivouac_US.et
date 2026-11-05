@@ -4,7 +4,7 @@ GenericEntity : "{6A30882656A63268}Prefabs/Structures/Military/CamoNets/US/CamoN
   RplComponent "{5D46D21E5CE2E86E}" { Enabled 1 }
   SCR_EditableEntityComponent "{5EF0BDF3122FBCA0}" : "{7933327C6791C5D0}Prefabs/Editor/Components/Structures_SCR_EditableEntityComponent.ct" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "Fieldcraft / BIVOUAC / tent cover"
+    Name "Portable Camo Nets / BIVOUAC / tent cover"
     Description "A larger camouflage canopy for a field camp; no spawn or arsenal. Pack away to recover 2 net pack(s)."
     m_Image "{8C624DD6AE36D003}UI/Textures/EditorPreviews/Auto/Structures/Military/CamoNets/US/E_CamoNet_Tent_US.edds"
     m_sFaction "US"

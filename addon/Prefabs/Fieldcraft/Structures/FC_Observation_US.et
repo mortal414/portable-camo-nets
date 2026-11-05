@@ -4,7 +4,7 @@ GenericEntity : "{6C08FE47987A4B9A}Prefabs/Structures/Military/CamoNets/US/CamoN
   RplComponent "{5D46D21E5CE2E86E}" { Enabled 1 }
   SCR_EditableEntityComponent "{5EF0BDF3120B8285}" : "{7933327C6791C5D0}Prefabs/Editor/Components/Structures_SCR_EditableEntityComponent.ct" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "Fieldcraft / LOOKOUT / observation hide"
+    Name "Portable Camo Nets / LOOKOUT / observation hide"
     Description "A concealed spot for observation or a support weapon. Pack away to recover 1 net pack(s)."
     m_Image "{A1A3AEFC18D6FB63}UI/Textures/EditorPreviews/Auto/Structures/Military/CamoNets/US/E_CamoNet_ObservationPost_US.edds"
     m_sFaction "US"

@@ -4,7 +4,7 @@ GenericEntity : "{79AA43911CC6C3E8}Prefabs/Structures/Military/CamoNets/Soviet/C
   RplComponent "{5D46D21E5CE2E86E}" { Enabled 1 }
   SCR_EditableEntityComponent "{5EF0BDF31205E4F0}" : "{7933327C6791C5D0}Prefabs/Editor/Components/Structures_SCR_EditableEntityComponent.ct" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "Fieldcraft / ACORN / light hide"
+    Name "Portable Camo Nets / ACORN / light hide"
     Description "Light vehicle, gun team or a quick halt. Pack away to recover 1 net pack(s)."
     m_Image "{284441727E60609C}UI/Textures/EditorPreviews/Auto/Structures/Military/CamoNets/Soviet/E_CamoNet_Small_Soviet.edds"
     m_sFaction "USSR"

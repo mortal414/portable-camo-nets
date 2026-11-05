@@ -4,7 +4,7 @@ GenericEntity : "{36E5AD413F04B509}Prefabs/Structures/Military/CamoNets/US/CamoN
   RplComponent "{5D46D21E5CE2E86E}" { Enabled 1 }
   SCR_EditableEntityComponent "{5EF0BDF31258CFE5}" : "{7933327C6791C5D0}Prefabs/Editor/Components/Structures_SCR_EditableEntityComponent.ct" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "Fieldcraft / CURTAIN / high screen"
+    Name "Portable Camo Nets / CURTAIN / high screen"
     Description "Screen a vehicle flank or command position. Pack away to recover 1 net pack(s)."
     m_Image "{5C6E097E75D9B57E}UI/Textures/EditorPreviews/Auto/Structures/Military/CamoNets/US/E_CamoNet_Wall_high_US.edds"
     m_sFaction "US"

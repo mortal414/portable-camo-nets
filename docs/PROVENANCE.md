@@ -1,6 +1,6 @@
 # Resource provenance
 
-Fieldcraft adds construction gameplay and new item/prefab configuration. **It does not add original building geometry, textures or icon art.**
+Portable Camo Nets adds construction gameplay and new item/prefab configuration. **It does not add original building geometry, textures or icon art.**
 
 The sixteen structure prefabs under `addon/Prefabs/Fieldcraft/Structures/` inherit the following existing vanilla families under `Prefabs/Structures/Military/CamoNets/US/` and `Prefabs/Structures/Military/CamoNets/Soviet/`:
 
@@ -20,3 +20,5 @@ Both authored bundle items use `{CF7BC644B0B84580}Assets/Structures/Military/Cam
 Soviet camouflage materials are inherited from the vanilla Soviet prefabs, including resources under `Assets/Structures/Military/CamoNets/Data/` such as `CamoNet_01_fabric_MKT.emat`, `CamoNet_01_Pole_MKT.emat`, and `CamoNet_01_double_MKT.emat`.
 
 The original code extends vanilla `SCR_MultiPartDeployableItemComponent` and `SCR_DeployMultiPartInventoryItemAction`. Native engine APIs own deployment, item-use animation and replication. The optional shovel action reuses the stock building-tool path; it does not provide a custom animation file.
+
+The original internal project ID `MarcoFieldcraft`, project filename `Fieldcraft.gproj`, `Prefabs/Fieldcraft/` resource paths, resource GUIDs and `FC_` script namespace are retained for compatibility. The public project and item names are **Portable Camo Nets**.

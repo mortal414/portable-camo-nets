@@ -1,11 +1,11 @@
 name: Bug report
-description: Report a reproducible Fieldcraft problem
+description: Report a reproducible Portable Camo Nets problem
 title: "[Bug]: "
 body:
   - type: input
     id: versions
     attributes:
-      label: Fieldcraft and Arma Reforger versions
+      label: Portable Camo Nets and Arma Reforger versions
     validations:
       required: true
   - type: textarea

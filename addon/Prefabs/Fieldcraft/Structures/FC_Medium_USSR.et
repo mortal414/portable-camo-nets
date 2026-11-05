@@ -4,7 +4,7 @@ GenericEntity : "{B90CA0BEF3CC1D19}Prefabs/Structures/Military/CamoNets/Soviet/C
   RplComponent "{5D46D21E5CE2E86E}" { Enabled 1 }
   SCR_EditableEntityComponent "{5EF0BDF312EF6D26}" : "{7933327C6791C5D0}Prefabs/Editor/Components/Structures_SCR_EditableEntityComponent.ct" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "Fieldcraft / CARPORT / vehicle hide"
+    Name "Portable Camo Nets / CARPORT / vehicle hide"
     Description "General purpose vehicle concealment. Pack away to recover 2 net pack(s)."
     m_Image "{7450AA3706099CB9}UI/Textures/EditorPreviews/Auto/Structures/Military/CamoNets/Soviet/E_CamoNet_Medium_Soviet.edds"
     m_sFaction "USSR"
