@@ -41,8 +41,25 @@ The PAK index contains exactly **22 resources**: eighteen Fieldcraft item/struct
 
 ## Repository and images
 
-Public Git source/docs/issue templates: **65526 bytes in 52 files**, excluding Git metadata. Git normalizes text line endings. The local working export is **66744 bytes**. Production source before Git line-ending normalization: **53545 bytes in 43 files** (including source metadata). Optional documentation is separate from the cooked addon.
+Public Git source/docs/issue templates: **66580 bytes in 52 files**, excluding Git metadata. Git normalizes text line endings. The local working export is **67817 bytes**. Production source before Git line-ending normalization: **53545 bytes in 43 files** (including source metadata). Optional documentation is separate from the cooked addon.
 
-Workshop-only JPEGs: **492,450 bytes** (FC-range-player.jpg: 243632, FC-range-showcase.jpg: 248818). These are actual native screenshots exported at original 1280Ã—720 dimensions without changing scene content. They are separate promotional uploads, not addon art or required game downloads.
+Workshop-only JPEGs: **492,450 bytes** (FC-range-player.jpg: 243632, FC-range-showcase.jpg: 248818). These are actual native screenshots exported at original 1280 x 720 dimensions without changing scene content. They are separate promotional uploads, not addon art or required game downloads.
 
-Workshop's generated manifest/compression and hosted screenshots can affect the service-reported upload size. The final server-side download has not yet been verified; this audit does not substitute its measured size with the source-tree size.
+## Actual prepared Workshop bundle
+
+Workbench's final pre-upload bundle validates successfully. It has **544,238 bytes in five upload files**, plus a **3,952-byte manifest**: **548,190 bytes in six local files**. The upload has not been confirmed and no server-side download is claimed.
+
+| File | Bytes |
+|---|---:|
+| `data.pak` | 49,606 |
+| `Fieldcraft.gproj` | 206 |
+| `resourceDatabase.rdb` | 1,976 |
+| `previewImage.jpg` | 248,818 |
+| `screenshot0.jpg` | 243,632 |
+| `manifest.json` | 3,952 |
+
+The final runtime core is **51,788 bytes**. The PAK and project descriptor hashes match the native-tested cooked addon; the publisher regenerated the resource database (1,976 versus 2,011 bytes). A readable-string comparison shows the project-descriptor resource entry omitted from that index. The two JPEGs are the only large optional promotional files. All manifest file sizes and SHA-256 hashes were checked against the actual bundle; it contains no local paths, credentials or diagnostic data.
+
+`data.pak` SHA-256: `62595519558cb58a978e06d7a0989c1b167abd9e3f604fd251d183f42572fd6b`.
+
+Workshop compression and hosting can affect the service-reported size. The final server-side download remains unverified.
