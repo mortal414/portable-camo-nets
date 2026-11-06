@@ -2,7 +2,7 @@
 
 Portable, recoverable camouflage construction for **Arma Reforger**.
 
-Workshop publication is pending. This repository contains the **1.0.0 release candidate**.
+Portable Camo Nets is available on the Arma Reforger Workshop. This repository contains the **1.0.0 source**.
 
 Carry net bundles on your back or in ordinary vehicle inventory, drop a bundle, and deploy a hide. Extra matching bundles can be within five metres or in the builder's inventory. Pack the structure away to recover the bundles. No construction truck is required.
 
